@@ -45,6 +45,7 @@ function appendToInput(value) {
     var inputField = document.getElementById("inputField");
     var resultField = document.getElementById("resultField");
     
+    lastvalue = ""
     inputField.value = "";
     resultField.value = "";
   }
