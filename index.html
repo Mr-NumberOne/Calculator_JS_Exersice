@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>Mr.Number One's Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
     <div class="calculator">
@@ -14,19 +15,19 @@
         <button class="button" onclick="appendToInput('7')">7</button>
         <button class="button" onclick="appendToInput('8')">8</button>
         <button class="button" onclick="appendToInput('9')">9</button>
+        <button class="button operator" onclick="appendToInput('/')">÷</button>
         <button class="button" onclick="appendToInput('4')">4</button>
         <button class="button" onclick="appendToInput('5')">5</button>
         <button class="button" onclick="appendToInput('6')">6</button>
+        <button class="button operator" onclick="appendToInput('*')">×</button>
         <button class="button" onclick="appendToInput('1')">1</button>
         <button class="button" onclick="appendToInput('2')">2</button>
         <button class="button" onclick="appendToInput('3')">3</button>
-        <button class="button" onclick="appendToInput('0')">0</button>
-        <button class="button" onclick="appendToInput('.')">.</button>
         <button class="button operator" onclick="appendToInput('-')">-</button>
-        <button class="button operator" onclick="appendToInput('*')">×</button>
-        <button class="button operator" onclick="appendToInput('/')">÷</button>
-        <button class="button operator" onclick="appendToInput('+')">+</button>
+        <button class="button" onclick="appendToInput('.')">.</button>
+        <button class="button" onclick="appendToInput('0')">0</button>
         <button class="button answer" onclick="calculate()">=</button>
+        <button class="button operator" onclick="appendToInput('+')">+</button>
         <button class="button clear" onclick="clearCalculator()">C</button>
       </div>
     </div>
